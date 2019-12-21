@@ -1,0 +1,1 @@
+<button class="btn" bindtap="send">点我查询</button>

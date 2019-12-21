@@ -1,0 +1,4 @@
+.btn {
+  width: 60%;
+  margin: 12px auto;
+}

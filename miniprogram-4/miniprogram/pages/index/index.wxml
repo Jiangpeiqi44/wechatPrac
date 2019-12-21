@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view>
+读取内容为：{{contents}}
+</view>

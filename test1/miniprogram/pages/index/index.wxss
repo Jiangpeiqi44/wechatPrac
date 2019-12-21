@@ -1,0 +1,29 @@
+.input{
+  width:100px;
+  border: 1px solid black;
+}
+
+.header{
+  align-items: center;
+  color: blue;
+  vertical-align: middle;
+}
+
+.input-wrap{
+  display: flex;
+  margin-top: 12px;
+}
+.result{
+  margin-top: 12px;
+  color: red;
+  align-items:center;
+  vertical-align: middle;
+}
+.calculate{
+  color: green
+}
+.upload{
+  color: green
+}.read{
+  color: green
+}

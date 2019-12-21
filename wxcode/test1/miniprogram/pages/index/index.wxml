@@ -1,0 +1,14 @@
+<view class="header">
+<view class="input-wrap">
+<input value="{{inputValue1}}"bindinput="input1" class="input"></input>
+<text> +</text>
+<input value="{{inputValue2}}"bindinput="input2" class="input"></input>
+</view>
+
+<view class="result">{{result}}</view>
+
+<button bindtap="calculate" class="calculate">计算答案</button>
+<button bindtap="upload" class="upload">上传到数据库</button>
+<button bindtap="read" class="read">读取数据库值</button>
+
+<view>xky 大菜鸡</view>

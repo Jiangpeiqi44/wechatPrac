@@ -1,0 +1,11 @@
+.tough{
+  font-size:40px;
+  font-weight:bold;
+  color:#ff0000;
+  text-align: center ;
+  margin:20px
+}
+
+.a{
+  color:blue;
+}

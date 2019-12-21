@@ -1,0 +1,17 @@
+<view class="header">判断器</view>
+<view class="input-wrap">
+<input bindinput="input1" class="input"></input>
+</view>
+
+<view class="result">{{result}}</view>
+<button bindtap="upload" style="color:{{color}}">计算答案</button> 
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.redX {
+    color: red;
+}
+
+.greenX {
+    color: rgb(28, 238, 9);
+}
+
+.sectionTitle{
+    margin-bottom: 20rpx;
+    font-size: 24px;
+}
+
+.section{
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+}

@@ -1,0 +1,13 @@
+.input{
+  width:100px;
+  border: 1px solid green;
+}
+
+
+
+.input-wrap{
+  display: flex;
+  margin-top: 12px;
+}
+
+

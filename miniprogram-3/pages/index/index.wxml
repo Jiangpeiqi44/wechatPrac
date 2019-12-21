@@ -1,0 +1,36 @@
+<view class="sectionTitle "> 实验一 </view>
+
+<!-- view组件很简单，显示在<view>和</view>之间的内容。
+“section”则是写在.wxss文件中的样式，容器的样式决定它的形状、颜色、位置等属性。-->
+
+<view class="section"> 例1 </view>
+
+<view> Hello World </view>
+
+<view class="section"> 例2 </view>
+
+<view class='redX'> Hello lmy </view>
+
+<text class='redX'> 蒋沛奇 </text>
+<view class="section"> 例3 </view>
+
+<view class='redX'> {{hw}} </view>
+<view class='blueX'> {{hw}} </view>
+
+<text class='blueX'> {{word1}} </text>
+<text class='redX'> {{word2}} </text>
+<view>
+<text class='redX'> {{word3}}, </text>
+<text class='blueX'> {{word4}} </text>
+</view>
+
+<view class='section'>例4</view>
+<view>Hello World * <text class='redX'>{{count}}</text></view>
+<button bindtap='addOne' type='primary'>点我加一</button>
+
+<view class='section'>例5</view>
+<form bindsubmit='submitFunc'>
+  <input name="input_word" placeholder="please input here" />
+  <button formType="submit">Submit</button>
+  <view>输入内容为： <text class='blueX'>{{show_input}}</text></view>
+</form>
